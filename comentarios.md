@@ -1,2 +1,1 @@
-Por a mensagem estar presente dentro da " run()" da Runnable criada, garantimos que a execução foi dentro da nova Thread.
-A apartir do comando join(). Conseguimos garantir que a Thread1 foi encerrada. 
+Percebemos que a maior parte do tempo é gasto na Thread, já que não há paralelismo e a Main espera a Thread terminar
