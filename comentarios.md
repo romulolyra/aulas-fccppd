@@ -1,0 +1,2 @@
+Por a mensagem estar presente dentro da " run()" da Runnable criada, garantimos que a execução foi dentro da nova Thread.
+A apartir do comando join(). Conseguimos garantir que a Thread1 foi encerrada. 
