@@ -1,1 +1,1 @@
-Percebemos que a maior parte do tempo é gasto na Thread, já que não há paralelismo e a Main espera a Thread terminar
+O método partitionData foi criado recebendo como parâmetro o range do index do array o qual ele vai ocupar em cada thread
