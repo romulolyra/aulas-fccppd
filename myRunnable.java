@@ -1,13 +1,15 @@
 import java.util.Random;
 
-class myRunnable implements Runnable {
+public class MyRunnable implements Runnable {
+  int[] list_primos = new int[30];
 
+  MyRunnable(int[] list){
+    list_primos = list; 
+  }
+  
   public void run() {
     
-          long start = System.currentTimeMillis();
-          int[] list_primos = new int[30];
-          list_primos = computePrimeFactors(randomList(list_primos));
-          System.out.println("Tempo em milisegundos na Thread :"+(System.currentTimeMillis() - start));
+        list_primos =  computePrimeFactors(list_primos);
 
           
         }
@@ -28,16 +30,10 @@ class myRunnable implements Runnable {
                 n /= i;
               }
             }
+            System.out.println(primeFactors);
             return primeFactors;
           }
-          public static int[] randomList(int [] list) {
-            Random r = new Random();
-            int[] newList = new int[list.length];
-            for (int i = 0; i < list.length; i++) {
-              newList[i] = r.nextInt();
-           }
-           return newList;
-          }
+
           
 
          
