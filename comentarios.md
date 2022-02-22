@@ -1,1 +1,1 @@
-Percebemos que a maior parte do tempo é gasto na Thread, já que não há paralelismo e a Main espera a Thread terminar
+O método run() é deixado vazio para que seja medido somente o tempo necessário para criação da Thread

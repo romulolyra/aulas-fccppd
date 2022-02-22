@@ -9,7 +9,7 @@ public class Main {
     thread1.start();
 
     thread1.join();
-    System.out.println("Tempo em milisegundos na Main :"+(System.currentTimeMillis() - start));
+    System.out.println("Tempo em milisegundos para a criacao da Thread :"+(System.currentTimeMillis() - start));
   }
 }
 
