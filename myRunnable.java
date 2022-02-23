@@ -1,4 +1,3 @@
-import java.util.Random;
 
 public class MyRunnable implements Runnable {
   int[] list_primos = new int[30];
@@ -30,7 +29,6 @@ public class MyRunnable implements Runnable {
                 n /= i;
               }
             }
-            System.out.println(primeFactors);
             return primeFactors;
           }
 

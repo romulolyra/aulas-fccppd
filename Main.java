@@ -5,18 +5,22 @@ public class Main {
   public static void main(String[] variavel) throws InterruptedException{ 
   
 
-    int myData[] = new int[30];
+    int myData[] = new int[1000];
 
     myData = randomList(myData.length);
+    long start = System.currentTimeMillis();
 
-    Thread thread1 = new Thread(new MyRunnable(PartionData(myData, 0, 14)));
-    Thread thread2 = new Thread(new MyRunnable(PartionData(myData, 15, 29)));
+    Thread thread1 = new Thread(new MyRunnable(PartionData(myData, 0, 499)));
+
+    Thread thread2 = new Thread(new MyRunnable(PartionData(myData, 500, 999)));
     
 
     thread1.start();
     thread2.start();
 
-
+    thread1.join();
+    thread2.join();
+    System.out.println("Tempo em milisegundos para 1000  :"+(System.currentTimeMillis() - start));
   }
   public static int[] PartionData(int[] a, int startIdx, int finalIdx) {
 
