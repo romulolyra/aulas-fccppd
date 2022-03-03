@@ -1,0 +1,1 @@
+Foi criada a função que parte o vetor a partir dos indices e outra função que usa a bilbioteca numpy para popular um array maior com numeros aleatórios 

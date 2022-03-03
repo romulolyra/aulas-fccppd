@@ -1,0 +1,1 @@
+Foram usadas 5 processos, mas poderiam ser criadas mais alterando a constante NUMBER_OF_PROCESSES
