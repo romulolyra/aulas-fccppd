@@ -1,1 +1,1 @@
-Devido ao não-determinismo, oS processos ocorrem em uma ordem não previsível de forma que não nos prints ocorrem fora da ordem numerica. Era esperado também que os processos entrassem em conflito no stdOut, o que não aocnteceu nos testes realizados. 
+Devido ao não-determinismo, os processos ocorrem em uma ordem não previsível de forma que não nos prints ocorrem fora da ordem numerica. Era esperado também que os processos entrassem em conflito no stdOut, o que não aocnteceu nos testes realizados. 
