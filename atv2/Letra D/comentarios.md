@@ -1,0 +1,1 @@
+O método partitionData foi criado recebendo como parâmetro o range do index do array o qual ele vai ocupar em cada thread

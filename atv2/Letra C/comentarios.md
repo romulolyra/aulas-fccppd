@@ -1,0 +1,1 @@
+O método run() é deixado vazio para que seja medido somente o tempo necessário para criação da Thread

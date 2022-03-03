@@ -1,0 +1,1 @@
+Percebemos que a maior parte do tempo é gasto na Thread, já que não há paralelismo e a Main espera a Thread terminar
