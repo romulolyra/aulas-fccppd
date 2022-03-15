@@ -1,0 +1,1 @@
+Com o aumento do número de processos, há um ganho em performance mesmo no começo do aumento dos arrays, no entanto, com a limitação da CPU a curva acaba crescendo muito rápido 
